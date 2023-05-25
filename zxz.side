@@ -1,0 +1,112 @@
+{
+  "id": "9211c9d4-8df9-47c0-b89c-7edc0bf6c132",
+  "version": "2.0",
+  "name": "zxz",
+  "url": "https://cfss101.casio.co.jp",
+  "tests": [{
+    "id": "a523c320-2060-44d7-87ed-0e7ee24ffdd8",
+    "name": "as",
+    "commands": [{
+      "id": "e870b830-97c6-4be0-9f55-f428ca7e0200",
+      "comment": "",
+      "command": "open",
+      "target": "/app/pb/pages/login?guestkey=&timeout=1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e04af1d-ab79-4714-a720-0de46b4a86a9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dae84eb2-e0d8-4336-a379-9a3d8766a588",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/p[2]/input", "xpath:idRelative"],
+        ["xpath=//p[2]/input", "xpath:position"]
+      ],
+      "value": "zxc"
+    }, {
+      "id": "354c3d21-bc58-4843-a1df-7389fa3c9e67",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "355ec01a-e9e8-4bc0-8740-65d99e9134e9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c729b47-881c-4ed6-8f9b-80aa2031d9a8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "003f5916-0330-4ab5-b263-573d9ff31b34",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["css=#login", "css:finder"],
+        ["xpath=//input[@id='login']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/div/div[2]/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b4cbc17-d69b-4108-9ab2-956df910bc7b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login_form",
+      "targets": [
+        ["css=.login_form", "css:finder"],
+        ["xpath=//form[@id='form']/div", "xpath:idRelative"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fbc7987d-b4d8-40e7-b0cb-564ae6fa995f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a523c320-2060-44d7-87ed-0e7ee24ffdd8"]
+  }],
+  "urls": ["https://cfss101.casio.co.jp/"],
+  "plugins": []
+}
