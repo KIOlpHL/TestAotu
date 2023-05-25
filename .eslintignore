@@ -1,0 +1,17 @@
+dist/
+node_modules/
+
+temp/
+logs/
+test-results/
+allure-results/
+allure-report/
+
+scripts/**/*.js
+bin/driver-patches/**/*.js
+
+# Docusaurus
+website/**/*.js
+build/
+.docusaurus/
+.cache-loader
